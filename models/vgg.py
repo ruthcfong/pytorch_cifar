@@ -44,4 +44,19 @@ def test():
     y = net(x)
     print(y.size())
 
-# test()
+
+def vgg11():
+    return VGG('VGG11')
+
+
+def vgg13():
+    return VGG('VGG13')
+
+
+def vgg16():
+    return VGG('VGG16')
+
+
+def vgg19():
+    return VGG('VGG19')
+
